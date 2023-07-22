@@ -1,2 +1,3 @@
 # sign-up
-Following the odin project directive
+
+Sign up form made for the odin project

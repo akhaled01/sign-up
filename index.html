@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <div class="mainwrapper">
+      <div class="logobg">
+        <div class="logo">
+          <img src="assets/logo.png" alt="odin logo" />
+          <div class="txt">ODIN</div>
+        </div>
+      </div>
+      <div class="maincontent">
+        <div class="CTA">Sign up to access the website (fake service)</div>
+        <div class="mainform">
+          <div class="leftside">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+              autocomplete="off"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              autocomplete="off"
+            />
+            <input
+              type="password"
+              name="fpass"
+              id="fpass"
+              placeholder="Password"
+              autocomplete="off"
+            />
+          </div>
+          <div class="rightside">
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+              autocomplete="off"
+            />
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age"
+              autocomplete="off"
+              min="18"
+            />
+            <input
+              type="password"
+              name="Cpass"
+              id="Cpass"
+              placeholder="Confirm Password"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div class="submitstuff">
+          <button onclick="ChData()">Create Account</button>
+          <h6>Already have an account? <a href="#">Login</a></h6>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
